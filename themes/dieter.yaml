@@ -1,4 +1,4 @@
-dieter-rams:
+dieter-dark:
 
   # Fonts
   primary-font-family: 'Work Sans, sans-serif'
@@ -20,7 +20,7 @@ dieter-rams:
   ha-card-header-font-weight: "var(--bold-font-weight)"
 
   # Text
-  text-color: '#ffffff'
+  text-color: '#F5F5F5'  # subtle warm off white
   primary-text-color: 'var(--text-color)'
   text-primary-color: 'var(--text-color)'
   pbs-button-color: 'var(--text-color)'
@@ -29,11 +29,11 @@ dieter-rams:
   pbs-button-rgb-default-color: 'var(--text-color)'
   rgb-state-default-color: 'var(--text-color)'
   pbs-button-rgb-fallback: 'var(--text-color)'
-  secondary-text-color: "#6e7175"  # Dunkleres Grau für sekundäre Texte
-  text-medium-light-color: '#85878c'
-  text-medium-color: '#686a70'
-  disabled-text-color: '#4a4b4f'
-  primary-color: '#1F3026'  # Dieter Rams Grün
+  secondary-text-color: "#8E8E93"  # Neutral secondary text gray
+  text-medium-light-color: '#98989D'
+  text-medium-color: '#636366'
+  disabled-text-color: '#48484A'
+  primary-color: '#517d64'  # Dieter Rams muted green
 
   # Text Fields an Dropdown
   mdc-text-field-fill-color: 'var(--background-color)'
@@ -49,68 +49,68 @@ dieter-rams:
   input-idle-line-color: 'var(--background-color)'
   input-dropdown-icon-color: 'var(--secondary-text-color)'
   input-hover-line-color: 'var(--primary-color)'
-  code-editor-background-color: '#222222'  # Dunkles Grau für Code-Editor
+  code-editor-background-color: '#1C1C1E'  # Dark gray for code editor
   codemirror-property: 'var(--primary-color)'
 
   # Main Colors
-  app-header-background-color: '#0E0F10'
+  app-header-background-color: '#010101'  # almost black
   header-height: 48px
-  accent-color: '#e89e3c'  # Dieter Rams Gelb 
+  accent-color: '#ffd700'  # Dieter Rams yellow
   accent-medium-color: 'var(--accent-color)'
-  app-header-edit-background-color: '#0E0F10'
+  app-header-edit-background-color: '#010101'  # almost black
 
   # Background
-  background-color: '#0E0F10'
+  background-color: '#000000'  # Pure black
   primary-background-color: 'var(--background-color)'
-  background-color-2: '#141617'  # Dunkles Grau für Hintergründe
-  secondary-background-color: 'transparent'
-  markdown-code-background-color: '#81827B'
+  background-color-2: '#1C1C1E'  # Subtle dark gray for contrast
+  secondary-background-color: 'var(--background-color)'
+  markdown-code-background-color: '#1C1C1E'
 
   # Card
   card-background-color: 'var(--ha-card-background)'
-  ha-card-background: '#0E0F10'  # Dunkelgrau für Karten
+  ha-card-background: 'var(--background-color)'  # No background boxes
   ha-card-box-shadow: 'none'
-  ha-card-border-radius: '0px'  # Keine abgerundeten Ecken
+  ha-card-border-radius: '0px'
   ha-card-border-style: 'none'
   ha-card-border-width: '0'
-  ha-card-border-color: 'transparent'
-  border-color: 'transparent'
+  ha-card-border-color: 'var(--background-color)'
+  border-color: 'var(--background-color)'
   grid-card-gap: '14px'
   border-style: 'none'
 
   # Icons
-  paper-item-icon-color: '#7B7E79'  # Dunkleres Grau für nicht ausgewählte Icons
-  paper-item-icon-active-color: '#61483C'
+  paper-item-icon-color: '#636366'  # Neutral gray
+  paper-item-icon-active-color: 'var(--primary-color)'  # Muted green for active
 
   # Sidebar
   sidebar-background-color: 'var(--background-color)'
-  sidebar-icon-color: '#7a7b7d'  # Dunkleres Grau für nicht ausgewählte Icons
-  sidebar-text-color: 'var(--sidebar-icon-color)'  # Dunkleres Grau für nicht ausgewählte Icons
-  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-icon-color: '#636366'  # Neutral gray
+  sidebar-text-color: 'var(--sidebar-icon-color)'
+  sidebar-selected-icon-color: 'var(--primary-color)'  # Muted green
   sidebar-selected-text-color: 'var(--text-color)'
   paper-listbox-background-color: 'var(--sidebar-background-color)'
   divider-color: 'var(--background-color)'
   light-primary-color: 'var(--ha-card-background)'
 
   # Sliders
-  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-knob-color: 'var(--primary-color)'  # Muted green
   paper-slider-pin-color: 'var(--background-color-2)'
-  paper-slider-active-color: 'var(--accent-color)'
-  paper-slider-container-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--primary-color)'  # Muted green
+  paper-slider-container-color: '#2C2C2E'  # Darker track
 
   # Toggle
-  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
-  mdc-theme-primary: 'var(--accent-color)'
+  paper-toggle-button-checked-bar-color: 'var(--primary-color)'  # Muted green
+  mdc-theme-primary: 'var(--primary-color)'  # Muted green
 
   # Switch
-  switch-unchecked-color: '#D08B30'
-  switch-checked-button-color: 'var(--accent-color)'
-  switch-unchecked-track-color: 'var(--background-color-2)'
-  switch-checked-track-color: 'var(--background-color-2)'
+  switch-unchecked-color: '#48484A'  # Subtle gray
+  switch-checked-button-color: '#F5F5F5'  # subtle warm off white
+  switch-unchecked-track-color: '#2C2C2E'
+  switch-checked-track-color: 'var(--primary-color)'  # Muted green track when on
 
   # Radio Button
-  paper-radio-button-checked-color: 'var(--accent-color)'
-  paper-radio-button-unchecked-color: 'var(--primary-color)'
+  paper-radio-button-checked-color: 'var(--primary-color)'  # Muted green
+  paper-radio-button-unchecked-color: '#636366'
 
 
   # Popups
@@ -124,10 +124,10 @@ dieter-rams:
   # Badges
   label-badge-background-color: 'var(--background-color)'
   label-badge-text-color: 'var(--text-primary-color)'
-  label-badge-red: 'rgba(245,32,53,1)'
-  label-badge-blue: 'rgba(72,104,247,1)'
-  label-badge-green: 'rgba(0,202,139,1)'
-  label-badge-yellow: 'rgba(255,229,28,1)'
+  label-badge-red: '#d32f2f'  # Muted red
+  label-badge-blue: '#476e58'  # Darker muted green
+  label-badge-green: '#5b8c70'  # Lighter muted green  
+  label-badge-yellow: '#ffd700'  # Rams yellow
 
   paper-input-container-focus-color: 'var(--accent-color)'
 
@@ -152,7 +152,76 @@ dieter-rams:
   pc-slider-path-color: 'var(--accent-color)'
   state-switch-outlet-on-color: 'var(--accent-color)'
 
-  card-mod-theme: dieter-rams
+  # State colors
+  state-icon-color: '#636366'
+  state-icon-active-color: 'var(--primary-color)'  # Muted green
+  state-icon-unavailable-color: '#48484A'
+
+  # Semantic colors
+  error-color: '#d32f2f'  # Muted red
+  warning-color: '#e6c200'  # Dieter Rams darker yellow
+  success-color: '#5b8c70'  # Lighter muted green
+  info-color: '#476e58'  # Darker muted green
+
+  # Material Design Components
+  mdc-theme-secondary: 'var(--accent-color)'  # Yellow
+  mdc-theme-on-primary: 'var(--text-color)'
+  mdc-theme-on-secondary: '#000000'
+  material-background-color: 'var(--background-color)'
+  material-secondary-background-color: 'var(--background-color-2)'
+
+  # Additional markdown
+  markdown-code-text-color: 'var(--text-color)'
+
+  # Energy colors
+  energy-grid-consumption-color: '#d32f2f' # Muted red
+  energy-solar-color: '#ffd700'  # Rams yellow
+  energy-battery-in-color: '#5b8c70'  # Lighter muted green
+  energy-battery-out-color: '#1C1C1E'  # Muted blue
+  energy-gas-color: '#e6c200'  # Darker Rams yellow
+
+  # Modern HA Design Tokens
+  ha-color-fill-primary: 'var(--primary-color)'
+  ha-color-fill-primary-hover: '#5b8c70'  # Lighter green on hover
+  ha-color-fill-primary-normal-hover: '#5b8c70'  # Normal state hover
+  ha-color-fill-primary-normal-active: '#476e58'  # Normal state active
+  ha-color-fill-primary-loud: 'var(--accent-color)'
+  ha-color-fill-primary-loud-hover: '#ffdb1a'  # Lighter yellow on hover
+  ha-color-fill-primary-loud-active: '#e6c200'  # Darker yellow active
+  ha-color-text-on-primary: 'var(--text-color)'
+  ha-color-text-on-accent: '#000000'
+  ha-color-border: '#2C2C2E'
+  ha-color-border-hover: 'var(--primary-color)'
+
+  # Web Awesome Components
+  wa-color-on-normal: 'var(--text-color)'
+  wa-color-on-quiet: 'var(--text-color)'
+  wa-color-neutral-on-quiet: 'var(--text-color)'
+  wa-color-primary: 'var(--primary-color)'
+  wa-color-accent: 'var(--accent-color)'
+  
+  # Web Awesome Brand Colors
+  wa-color-brand-fill-loud: 'var(--primary-color)'
+  wa-color-brand-fill-normal: 'var(--primary-color)'
+  wa-color-brand-fill-quiet: 'var(--background-color)'
+  wa-color-brand-border-loud: 'var(--primary-color)'
+  wa-color-brand-border-normal: 'var(--primary-color)'
+  wa-color-brand-border-quiet: 'var(--primary-color)'
+  wa-color-brand-on-loud: 'var(--text-color)'
+  wa-color-brand-on-normal: 'var(--text-color)'
+  wa-color-brand-on-quiet: 'var(--text-color)'
+  
+  # Web Awesome Fill States (for hover/active animations)
+  wa-color-fill-loud-hover: '#5b8c70'  # Lighter green
+  wa-color-fill-loud-active: '#476e58'  # Darker green
+  wa-color-fill-normal-hover: '#5b8c70'
+  wa-color-fill-normal-active: '#476e58'
+  wa-color-brand-fill-loud-hover: '#5b8c70'
+  wa-color-brand-fill-loud-active: '#476e58'
+  wa-color-brand-fill-normal-hover: '#5b8c70'
+  wa-color-brand-fill-normal-active: '#476e58'
+
+  card-mod-theme: dieter-dark
   
   card-mod-root-yaml: |
     .: |
@@ -217,7 +286,7 @@ dieter-rams:
         background-color: var(--accent-color);
       }
     
-dieter_rams_light:
+dieter-light:
 
   # Fonts
   primary-font-family: 'Work Sans, sans-serif'
@@ -239,7 +308,7 @@ dieter_rams_light:
   ha-card-header-font-weight: "var(--bold-font-weight)"
 
   # Text
-  text-color: '#000000'
+  text-color: '#1A1A1A'  # Deep charcoal for text
   primary-text-color: 'var(--text-color)'
   text-primary-color: 'var(--text-color)'
   pbs-button-color: 'var(--text-color)'
@@ -248,11 +317,11 @@ dieter_rams_light:
   pbs-button-rgb-default-color: 'var(--text-color)'
   rgb-state-default-color: 'var(--text-color)'
   pbs-button-rgb-fallback: 'var(--text-color)'
-  secondary-text-color: "#808285"  # Dunkleres Grau für sekundäre Texte
-  text-medium-light-color: '#A0A2A8'
-  text-medium-color: '#80828A'
-  disabled-text-color: '#626569'
-  primary-color: '#F0F0F0'  # Sehr helles Grau für primäre Elemente
+  secondary-text-color: "#636366"  # Neutral gray for secondary text
+  text-medium-light-color: '#8E8E93'
+  text-medium-color: '#636366'
+  disabled-text-color: '#C7C7CC'
+  primary-color: '#517d64'  # Dieter Rams muted green
 
   # Text Fields an Dropdown
   mdc-text-field-fill-color: 'var(--background-color)'
@@ -272,64 +341,64 @@ dieter_rams_light:
   codemirror-property: 'var(--primary-color)'
 
   # Main Colors
-  app-header-background-color: '#FAFAFA'
+  app-header-background-color: '#F5F5F5'  # subtle warm off white
   header-height: 48px
-  accent-color: '#FFD700'  # Dieter Rams Gelb
+  accent-color: '#ffd700'  # Dieter Rams yellow (consistent with dark theme)
   accent-medium-color: 'var(--accent-color)'
-  app-header-edit-background-color: '#FAFAFA'
+  app-header-edit-background-color: '#F5F5F5'
 
   # Background
-  background-color: '#F7F7F7'  # Sehr helles Grau für Hintergründe
+  background-color: '#F5F5F5'  # subtle warm off white
   primary-background-color: 'var(--background-color)'
-  background-color-2: '#EFEFEF'  # Noch helleres Grau für Hintergründe
-  secondary-background-color: 'transparent'
-  markdown-code-background-color: '#E8E8E8'
+  background-color-2: '#F5F5F5'  # Subtle gray for contrast
+  secondary-background-color: 'var(--background-color)'
+  markdown-code-background-color: '#F5F5F5'
 
   # Card
   card-background-color: 'var(--ha-card-background)'
-  ha-card-background: 'var(--background-color)'  # Weiß für Karten
+  ha-card-background: 'var(--background-color)'  # No background boxes
   ha-card-box-shadow: 'none'
-  ha-card-border-radius: '0px'  # Keine abgerundeten Ecken
+  ha-card-border-radius: '0px'
   ha-card-border-style: 'none'
   ha-card-border-width: '0'
-  ha-card-border-color: 'transparent'
-  border-color: 'transparent'
+  ha-card-border-color: 'var(--background-color)'
+  border-color: 'var(--background-color)'
   grid-card-gap: '14px'
   border-style: 'none'
 
   # Icons
-  paper-item-icon-color: '#A9A9A9'  # Dunkleres Grau für nicht ausgewählte Icons
-  paper-item-icon-active-color: '#61483C'
+  paper-item-icon-color: '#8E8E93'  # Neutral gray
+  paper-item-icon-active-color: 'var(--primary-color)'  # Muted green
 
   # Sidebar
   sidebar-background-color: 'var(--background-color)'
-  sidebar-icon-color: '#A9A9A9'  # Dunkleres Grau für nicht ausgewählte Icons
-  sidebar-text-color: 'var(--sidebar-icon-color)'  # Dunkleres Grau für nicht ausgewählte Icons
-  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-icon-color: '#8E8E93'  # Neutral gray
+  sidebar-text-color: 'var(--sidebar-icon-color)'
+  sidebar-selected-icon-color: 'var(--primary-color)'  # Muted green
   sidebar-selected-text-color: 'var(--text-color)'
   paper-listbox-background-color: 'var(--sidebar-background-color)'
   divider-color: 'var(--background-color)'
   light-primary-color: 'var(--ha-card-background)'
 
   # Sliders
-  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-knob-color: 'var(--primary-color)'  # Muted green
   paper-slider-pin-color: 'var(--background-color-2)'
-  paper-slider-active-color: 'var(--accent-color)'
-  paper-slider-container-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--primary-color)'  # Muted green
+  paper-slider-container-color: '#E5E5EA'  # Light gray track
 
   # Toggle
-  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
-  mdc-theme-primary: 'var(--accent-color)'
+  paper-toggle-button-checked-bar-color: 'var(--primary-color)'  # Muted green
+  mdc-theme-primary: 'var(--primary-color)'  # Muted green
 
   # Switch
-  switch-unchecked-color: '#D08B30'
-  switch-checked-button-color: 'var(--accent-color)'
-  switch-unchecked-track-color: 'var(--background-color-2)'
-  switch-checked-track-color: 'var(--background-color-2)'
+  switch-unchecked-color: '#C7C7CC'  # Light gray
+  switch-checked-button-color: '#F5F5F5'  # subtle warm off white
+  switch-unchecked-track-color: '#E5E5EA'
+  switch-checked-track-color: 'var(--primary-color)'  # Muted green track when on
 
   # Radio Button
-  paper-radio-button-checked-color: 'var(--accent-color)'
-  paper-radio-button-unchecked-color: 'var(--background-color-2)'
+  paper-radio-button-checked-color: 'var(--primary-color)'  # Muted green
+  paper-radio-button-unchecked-color: '#8E8E93'  # Neutral gray
 
   # Popups
   more-info-header-background: 'var(--secondary-background-color)'
@@ -342,10 +411,10 @@ dieter_rams_light:
   # Badges
   label-badge-background-color: 'var(--background-color)'
   label-badge-text-color: 'var(--text-primary-color)'
-  label-badge-red: 'rgba(245,32,53,1)'
-  label-badge-blue: 'rgba(72,104,247,1)'
-  label-badge-green: 'rgba(0,202,139,1)'
-  label-badge-yellow: 'rgba(255,229,28,1)'
+  label-badge-red: '#d32f2f'  # Muted red
+  label-badge-blue: '#476e58'  # Darker muted green
+  label-badge-green: '#5b8c70'  # Lighter muted green  
+  label-badge-yellow: '#ffd700'  # Rams yellow
 
   paper-input-container-focus-color: 'var(--accent-color)'
 
@@ -370,7 +439,76 @@ dieter_rams_light:
   pc-slider-path-color: 'var(--accent-color)'
   state-switch-outlet-on-color: 'var(--accent-color)'
 
-  card-mod-theme: dieter_rams_light
+  # State colors
+  state-icon-color: '#8E8E93'
+  state-icon-active-color: 'var(--primary-color)'  # Muted green
+  state-icon-unavailable-color: '#C7C7CC'
+
+  # Semantic colors
+  error-color: '#d32f2f'  # Muted red
+  warning-color: '#e6c200'  # Dieter Rams darker yellow
+  success-color: '#5b8c70'  # Lighter muted green
+  info-color: '#476e58'  # Darker muted green
+
+  # Material Design Components
+  mdc-theme-secondary: 'var(--accent-color)'  # Yellow
+  mdc-theme-on-primary: '#F5F5F5'  # subtle warm off white
+  mdc-theme-on-secondary: '#000000'  # Pure black
+  material-background-color: 'var(--background-color)'
+  material-secondary-background-color: 'var(--background-color-2)'
+
+  # Additional markdown
+  markdown-code-text-color: 'var(--text-color)'
+
+  # Energy colors
+  energy-grid-consumption-color: '#d32f2f' # Neutral red
+  energy-solar-color: '#ffd700'  # Rams yellow
+  energy-battery-in-color: '#5b8c70'  # Lighter muted green
+  energy-battery-out-color: '#1C1C1E'  # Muted blue
+  energy-gas-color: '#e6c200'  # Darker Rams yellow
+
+  # Modern HA Design Tokens
+  ha-color-fill-primary: 'var(--primary-color)'
+  ha-color-fill-primary-hover: '#5b8c70'  # Lighter green on hover
+  ha-color-fill-primary-normal-hover: '#5b8c70'  # Normal state hover
+  ha-color-fill-primary-normal-active: '#476e58'  # Normal state active
+  ha-color-fill-primary-loud: 'var(--accent-color)'
+  ha-color-fill-primary-loud-hover: '#ffdb1a'  # Lighter yellow on hover
+  ha-color-fill-primary-loud-active: '#e6c200'  # Darker yellow active
+  ha-color-text-on-primary: '#F5F5F5'
+  ha-color-text-on-accent: '#000000'
+  ha-color-border: '#E5E5EA'
+  ha-color-border-hover: 'var(--primary-color)'
+
+  # Web Awesome Components
+  wa-color-on-normal: 'var(--text-color)'
+  wa-color-on-quiet: 'var(--text-color)'
+  wa-color-neutral-on-quiet: 'var(--text-color)'
+  wa-color-primary: 'var(--primary-color)'
+  wa-color-accent: 'var(--accent-color)'
+  
+  # Web Awesome Brand Colors
+  wa-color-brand-fill-loud: 'var(--primary-color)'
+  wa-color-brand-fill-normal: 'var(--primary-color)'
+  wa-color-brand-fill-quiet: 'var(--background-color)'
+  wa-color-brand-border-loud: 'var(--primary-color)'
+  wa-color-brand-border-normal: 'var(--primary-color)'
+  wa-color-brand-border-quiet: 'var(--primary-color)'
+  wa-color-brand-on-loud: '#F5F5F5'
+  wa-color-brand-on-normal: '#F5F5F5'
+  wa-color-brand-on-quiet: 'var(--text-color)'
+  
+  # Web Awesome Fill States (for hover/active animations)
+  wa-color-fill-loud-hover: '#5b8c70'  # Lighter green
+  wa-color-fill-loud-active: '#476e58'  # Darker green
+  wa-color-fill-normal-hover: '#5b8c70'
+  wa-color-fill-normal-active: '#476e58'
+  wa-color-brand-fill-loud-hover: '#5b8c70'
+  wa-color-brand-fill-loud-active: '#476e58'
+  wa-color-brand-fill-normal-hover: '#5b8c70'
+  wa-color-brand-fill-normal-active: '#476e58'
+
+  card-mod-theme: dieter-light
   
   card-mod-root-yaml: |
     .: |
@@ -427,5 +565,297 @@ dieter_rams_light:
       transition: none;
       border-style: none;
     }
+    .mdc-radio .mdc-radio__background {
+      border-color: var(--switch-unchecked-color);
+    }
+    .mdc-radio.mdc-radio--checked .mdc-radio__background {
+      border-color: var(--accent-color);
+      background-color: var(--accent-color);
+    }
 
+dieter-authentic:
 
+  # Fonts
+  primary-font-family: 'Work Sans, sans-serif'
+  secondary-font-family: 'IBM Plex Sans, sans-serif'
+  code-font-family: 'Reddit Mono, monospace'
+  primary-font-weight: '300'
+  bold-font-weight: '400'
+  italic-font-style: 'italic'
+  
+  # Common Font Settings
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--code-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--secondary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--secondary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
+  ha-card-header-font-weight: "var(--bold-font-weight)"
+
+  # Text - Using authentic Braun cream
+  text-color: '#010101'  # Authentic Braun off-white/cream
+  primary-text-color: 'var(--text-color)'
+  text-primary-color: 'var(--text-color)'
+  pbs-button-color: 'var(--text-color)'
+  pbs-button-rgb-color: 'var(--text-color)'
+  pbs-button-rgb-state-color: 'var(--text-color)'
+  pbs-button-rgb-default-color: 'var(--text-color)'
+  rgb-state-default-color: 'var(--text-color)'
+  pbs-button-rgb-fallback: 'var(--text-color)'
+  secondary-text-color: "#8E8E93"
+  text-medium-light-color: '#98989D'
+  text-medium-color: '#0D703F'  # Olive tone
+  disabled-text-color: '#48484A'
+  primary-color: '#F1B73A'  # Yellow
+
+  # Text Fields an Dropdown
+  mdc-text-field-fill-color: 'var(--background-color)'
+  mdc-text-field-ink-color: 'var(--text-color)'
+  mdc-select-fill-color: 'var(--background-color)'
+  mdc-text-field-label-ink-color: 'var(--secondary-text-color)'
+  input-fill-color: 'var(--background-color)'
+  input-ink-color: 'var(--text-color)'
+  input-label-ink-color: 'var(--text-color)'
+  input-disabled-fill-color: 'var(--background-color)'
+  input-disabled-ink-color: 'var(--disabled-text-color)'
+  input-disabled-label-ink-color: 'var(--disabled-text-color)'
+  input-idle-line-color: 'var(--background-color)'
+  input-dropdown-icon-color: 'var(--secondary-text-color)'
+  input-hover-line-color: 'var(--primary-color)'
+  code-editor-background-color: '#1C1C1E'
+  codemirror-property: 'var(--primary-color)'
+
+  # Main Colors - Authentic Braun orange
+  app-header-background-color: '#D3D8D2'
+  header-height: 48px
+  accent-color: '#F1B73A'  # Authentic Braun orange
+  accent-medium-color: 'var(--accent-color)'
+  app-header-edit-background-color: '#D3D8D2'
+
+  # Background
+  background-color: '#D3D8D2'  # Pure black
+  primary-background-color: 'var(--background-color)'
+  background-color-2: '#D3D8D2'
+  secondary-background-color: 'var(--background-color)'
+  markdown-code-background-color: '#1C1C1E'
+
+  # Card
+  card-background-color: 'var(--ha-card-background)'
+  ha-card-background: 'var(--background-color)'  # No background boxes
+  ha-card-box-shadow: 'none'
+  ha-card-border-radius: '0px'
+  ha-card-border-style: 'none'
+  ha-card-border-width: '0'
+  ha-card-border-color: 'var(--background-color)'
+  border-color: 'var(--background-color)'
+  grid-card-gap: '14px'
+  border-style: 'none'
+
+  # Icons
+  paper-item-icon-color: '#636366'
+  paper-item-icon-active-color: 'var(--primary-color)'  # Olive
+
+  # Sidebar
+  sidebar-background-color: 'var(--background-color)'
+  sidebar-icon-color: '#636366'
+  sidebar-text-color: 'var(--sidebar-icon-color)'
+  sidebar-selected-icon-color: 'var(--primary-color)'  # Olive
+  sidebar-selected-text-color: 'var(--text-color)'
+  paper-listbox-background-color: 'var(--sidebar-background-color)'
+  divider-color: 'var(--background-color)'
+  light-primary-color: 'var(--ha-card-background)'
+
+  # Sliders
+  paper-slider-knob-color: 'var(--primary-color)'  # Olive
+  paper-slider-pin-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--primary-color)'  # Olive
+  paper-slider-container-color: '#2C2C2E'
+
+  # Toggle
+  paper-toggle-button-checked-bar-color: 'var(--primary-color)'  # Olive
+  mdc-theme-primary: 'var(--primary-color)'
+
+  # Switch
+  switch-unchecked-color: '#48484A'
+  switch-checked-button-color: '#D9D2C6'
+  switch-unchecked-track-color: '#2C2C2E'
+  switch-checked-track-color: 'var(--primary-color)'
+
+  # Radio Button
+  paper-radio-button-checked-color: 'var(--primary-color)'  # Olive
+  paper-radio-button-unchecked-color: '#636366'
+
+  # Popups
+  more-info-header-background: 'var(--secondary-background-color)'
+  paper-dialog-background-color: 'var(--background-color)'
+
+  # Tables
+  table-row-background-color: 'var(--background-color)'
+  table-row-alternative-background-color: 'var(--ha-card-background)'
+
+  # Badges - Using authentic Braun palette
+  label-badge-background-color: 'var(--background-color)'
+  label-badge-text-color: 'var(--text-primary-color)'
+  label-badge-red: '#BF1B1B'  # Authentic Braun deep red
+  label-badge-blue: '#736B1E'  # Olive
+  label-badge-green: '#736B1E'  # Olive  
+  label-badge-yellow: '#ED8008'  # Braun orange
+
+  paper-input-container-focus-color: 'var(--accent-color)'
+
+  # Custom Header
+  ch-background: 'var(--background-color)'
+  ch-active-tab-color: 'var(--accent-color)'
+  ch-notification-dot-color: 'var(--accent-color)'
+  ch-all-tabs-color: 'var(--sidebar-icon-color)'
+  ch-tab-indicator-color: 'var(--accent-color)'
+
+  # Mini Mediaplayer
+  mini-media-player-base-color: 'var(--text-color)'
+  mini-media-player-accent-color: 'var(--accent-color)'
+
+  # Alarm
+  alarm-color-armed: 'rgba(191,27,27,1)'  # Authentic Braun red
+  
+  # Mushroom
+  icon-color: 'var(--primary-color)'
+  rgb-state-fan: 'var(--primary-color)'
+  round-slider-handle-color: 'var(--accent-color)'
+  pc-slider-path-color: 'var(--accent-color)'
+  state-switch-outlet-on-color: 'var(--accent-color)'
+
+  # State colors
+  state-icon-color: '#636366'
+  state-icon-active-color: 'var(--primary-color)'  # Olive
+  state-icon-unavailable-color: '#48484A'
+
+  # Semantic colors - Using authentic Braun palette
+  error-color: '#BF1B1B'  # Authentic Braun deep red
+  warning-color: '#ED8008'  # Braun orange
+  success-color: '#736B1E'  # Olive
+  info-color: '#ED3F1C'  # Braun coral
+
+  # Material Design Components
+  mdc-theme-secondary: 'var(--accent-color)'  # Orange
+  mdc-theme-on-primary: 'var(--text-color)'
+  mdc-theme-on-secondary: '#000000'
+  material-background-color: 'var(--background-color)'
+  material-secondary-background-color: 'var(--background-color-2)'
+
+  # Additional markdown
+  markdown-code-text-color: 'var(--text-color)'
+
+  # Energy colors
+  energy-grid-consumption-color: '#5B4A3B'  # Braun brown
+  energy-solar-color: '#ED8008'  # Braun orange
+  energy-battery-in-color: '#736B1E'  # Olive
+  energy-battery-out-color: '#ED3F1C'  # Coral
+  energy-gas-color: '#ED8008'  # Braun orange
+
+  # Modern HA Design Tokens
+  ha-color-fill-primary: 'var(--primary-color)'
+  ha-color-fill-primary-hover: '#8a824a'  # Lighter olive on hover
+  ha-color-fill-primary-normal-hover: '#8a824a'  # Normal state hover
+  ha-color-fill-primary-normal-active: '#5d5618'  # Normal state active
+  ha-color-fill-primary-loud: 'var(--accent-color)'
+  ha-color-fill-primary-loud-hover: '#f59530'  # Lighter orange on hover
+  ha-color-fill-primary-loud-active: '#d67207'  # Darker orange active
+  ha-color-text-on-primary: 'var(--text-color)'
+  ha-color-text-on-accent: '#000000'
+  ha-color-border: '#2C2C2E'
+  ha-color-border-hover: 'var(--primary-color)'
+
+  # Web Awesome Components
+  wa-color-on-normal: 'var(--text-color)'
+  wa-color-on-quiet: 'var(--text-color)'
+  wa-color-neutral-on-quiet: 'var(--text-color)'
+  wa-color-primary: 'var(--primary-color)'
+  wa-color-accent: 'var(--accent-color)'
+  
+  # Web Awesome Brand Colors
+  wa-color-brand-fill-loud: 'var(--primary-color)'
+  wa-color-brand-fill-normal: 'var(--primary-color)'
+  wa-color-brand-fill-quiet: 'var(--background-color)'
+  wa-color-brand-border-loud: 'var(--primary-color)'
+  wa-color-brand-border-normal: 'var(--primary-color)'
+  wa-color-brand-border-quiet: 'var(--primary-color)'
+  wa-color-brand-on-loud: 'var(--text-color)'
+  wa-color-brand-on-normal: 'var(--text-color)'
+  wa-color-brand-on-quiet: 'var(--text-color)'
+  
+  # Web Awesome Fill States (for hover/active animations)
+  wa-color-fill-loud-hover: '#8a824a'  # Lighter olive
+  wa-color-fill-loud-active: '#5d5618'  # Darker olive
+  wa-color-fill-normal-hover: '#8a824a'
+  wa-color-fill-normal-active: '#5d5618'
+  wa-color-brand-fill-loud-hover: '#8a824a'
+  wa-color-brand-fill-loud-active: '#5d5618'
+  wa-color-brand-fill-normal-hover: '#8a824a'
+  wa-color-brand-fill-normal-active: '#5d5618'
+
+  card-mod-theme: dieter-authentic
+  
+  card-mod-root-yaml: |
+    .: |
+      @media only screen and (max-width: 768px) {
+          .header {
+            display: none;
+            opacity: 0;
+          }
+          #view {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+            height: calc(100vh - env(safe-area-inset-top)) !important;
+          }
+      }
+    
+  card-mod-more-info-yaml: |
+    $: |
+      .mdc-dialog .mdc-dialog__scrim {
+         backdrop-filter: blur(15px);
+         -webkit-backdrop-filter: blur(15px);
+         background: rgba(0,0,0,.6);
+      } 
+      .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
+         box-shadow: none !important;
+         border-radius: var(--ha-card-border-radius);
+      }
+    .: |
+      :host {
+         --ha-card-box-shadow: none;
+      }
+
+  card-mod-view-yaml: |
+    hui-sidebar-view:
+      $: |
+        @media only screen and (min-width: 768px) {
+            .container {
+              max-width: 520px;
+              margin: auto !important;
+              width: -webkit-fill-available;
+            }
+        }
+        #wrapper: |
+          $: |
+            #progressContainer {
+                border-radius: 14px !important;
+            }
+      .: |
+        "#view>hui-view>hui-sidebar-view$#main>hui-card-options:nth-child(7)>vertical-stack-in-card$ha-card>div>hui-horizontal-stack-card$#root>hui-grid-card$#root>hui-entities-card$#states>div:nth-child(4)>slider-entity-row$div>ha-slider$#sliderBar$#progressContainer" {
+            border-radius: 14px !important;
+        }
+
+  card-mod-card: |
+      ha-card {
+        transition: none;
+        border-style: none;
+      }
+      .mdc-radio .mdc-radio__background {
+        border-color: var(--switch-unchecked-color);
+      }
+      .mdc-radio.mdc-radio--checked .mdc-radio__background {
+        border-color: var(--accent-color);
+        background-color: var(--accent-color);
+      }

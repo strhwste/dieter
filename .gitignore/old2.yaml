@@ -1,0 +1,432 @@
+dieter-rams:
+
+  # Fonts
+  primary-font-family: 'Work Sans, sans-serif'
+  secondary-font-family: 'IBM Plex Sans, sans-serif'
+  code-font-family: 'Reddit Mono, monospace'
+  primary-font-weight: '300'
+  bold-font-weight: '400'
+  italic-font-style: 'italic'
+  
+  # Common Font Settings
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--code-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--secondary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--secondary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
+  ha-card-header-font-weight: "var(--bold-font-weight)"
+
+  # Text
+  text-color: '#ffffff'
+  primary-text-color: 'var(--text-color)'
+  text-primary-color: 'var(--text-color)'
+  pbs-button-color: 'var(--text-color)'
+  pbs-button-rgb-color: 'var(--text-color)'
+  pbs-button-rgb-state-color: 'var(--text-color)'
+  pbs-button-rgb-default-color: 'var(--text-color)'
+  rgb-state-default-color: 'var(--text-color)'
+  pbs-button-rgb-fallback: 'var(--text-color)'
+  secondary-text-color: "#6e7175"  # Dunkleres Grau für sekundäre Texte
+  text-medium-light-color: '#85878c'
+  text-medium-color: '#686a70'
+  disabled-text-color: '#4a4b4f'
+  primary-color: '#1F3026'  # Dieter Rams Grün
+
+  # Text Fields an Dropdown
+  mdc-text-field-fill-color: 'var(--background-color)'
+  mdc-text-field-ink-color: 'var(--text-color)'
+  mdc-select-fill-color: 'var(--background-color)'
+  mdc-text-field-label-ink-color: 'var(--secondary-text-color)'
+  input-fill-color: 'var(--background-color)'
+  input-ink-color: 'var(--text-color)'
+  input-label-ink-color: 'var(--text-color)'
+  input-disabled-fill-color: 'var(--background-color)'
+  input-disabled-ink-color: 'var(--disabled-text-color)'
+  input-disabled-label-ink-color: 'var(--disabled-text-color)'
+  input-idle-line-color: 'var(--background-color)'
+  input-dropdown-icon-color: 'var(--secondary-text-color)'
+  input-hover-line-color: 'var(--primary-color)'
+  code-editor-background-color: '#222222'  # Dunkles Grau für Code-Editor
+  codemirror-property: 'var(--primary-color)'
+
+  # Main Colors
+  app-header-background-color: '#000000'  # Komplett schwarzer Hintergrund
+  header-height: 48px
+  accent-color: '#e89e3c'  # Dieter Rams Gelb 
+  accent-medium-color: 'var(--accent-color)'
+  app-header-edit-background-color: '#000000'
+
+  # Background
+  background-color: '#000000'
+  primary-background-color: 'var(--background-color)'
+  background-color-2: '#000000'  # Dunkles Grau für Hintergründe
+  secondary-background-color: 'none'
+  markdown-code-background-color: '#81827B'
+
+  # Card
+  card-background-color: 'var(--ha-card-background)'
+  ha-card-background: '#000000'  # Dunkelgrau für Karten
+  ha-card-box-shadow: 'none'
+  ha-card-border-radius: '0px'  # Keine abgerundeten Ecken
+  ha-card-border-style: 'none !important'
+  ha-card-border-width: 'none !important'
+  ha-card-border-color: 'none !important'
+  border-color: 'none'
+  grid-card-gap: '14px'
+  border-style: 'none !important'
+
+  # Icons
+  paper-item-icon-color: '#7B7E79'  # Dunkleres Grau für nicht ausgewählte Icons
+  paper-item-icon-active-color: '#61483C'
+
+  # Sidebar
+  sidebar-background-color: 'var(--background-color)'
+  sidebar-icon-color: '#7a7b7d'  # Dunkleres Grau für nicht ausgewählte Icons
+  sidebar-text-color: 'var(--sidebar-icon-color)'  # Dunkleres Grau für nicht ausgewählte Icons
+  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-selected-text-color: 'var(--text-color)'
+  paper-listbox-background-color: 'var(--sidebar-background-color)'
+  divider-color: 'var(--background-color)'
+  light-primary-color: 'var(--ha-card-background)'
+
+  # Sliders
+  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-pin-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--accent-color)'
+  paper-slider-container-color: 'var(--background-color-2)'
+
+  # Toggle
+  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
+  mdc-theme-primary: 'var(--accent-color)'
+
+  # Switch
+  switch-unchecked-color: '#D08B30'
+  switch-checked-button-color: 'var(--accent-color)'
+  switch-unchecked-track-color: 'var(--background-color-2)'
+  switch-checked-track-color: 'var(--background-color-2)'
+
+  # Radio Button
+  paper-radio-button-checked-color: 'var(--accent-color)'
+  paper-radio-button-unchecked-color: 'var(--primary-color)'
+
+
+  # Popups
+  more-info-header-background: 'var(--secondary-background-color)'
+  paper-dialog-background-color: 'var(--background-color)'
+
+  # Tables
+  table-row-background-color: 'var(--background-color)'
+  table-row-alternative-background-color: 'var(--ha-card-background)'
+
+  # Badges
+  label-badge-background-color: 'var(--background-color)'
+  label-badge-text-color: 'var(--text-primary-color)'
+  label-badge-red: 'rgba(245,32,53,1)'
+  label-badge-blue: 'rgba(72,104,247,1)'
+  label-badge-green: 'rgba(0,202,139,1)'
+  label-badge-yellow: 'rgba(255,229,28,1)'
+
+  paper-input-container-focus-color: 'var(--accent-color)'
+
+  # Custom Header
+  ch-background: 'var(--background-color)'
+  ch-active-tab-color: 'var(--accent-color)'
+  ch-notification-dot-color: 'var(--accent-color)'
+  ch-all-tabs-color: 'var(--sidebar-icon-color)'
+  ch-tab-indicator-color: 'var(--accent-color)'
+
+  # Mini Mediaplayer
+  mini-media-player-base-color: 'var(--text-color)'
+  mini-media-player-accent-color: 'var(--accent-color)'
+
+  # Alarm
+  alarm-color-armed: 'rgba(237,65,44,1)'
+  
+  # Mushroom
+  icon-color: 'var(--primary-color)'
+  rgb-state-fan: 'var(--primary-color)'
+  round-slider-handle-color: 'var(--accent-color)'
+  pc-slider-path-color: 'var(--accent-color)'
+  state-switch-outlet-on-color: 'var(--accent-color)'
+
+  card-mod-theme: dieter_rams
+  
+  card-mod-root-yaml: |
+    .: |
+      @media only screen and (max-width: 768px) {
+          .header {
+            display: none;
+            opacity: 0;
+          }
+          #view {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+            height: calc(100vh - env(safe-area-inset-top)) !important;
+          }
+      }
+    
+  card-mod-more-info-yaml: |
+    $: |
+      .mdc-dialog .mdc-dialog__scrim {
+         backdrop-filter: blur(15px);
+         -webkit-backdrop-filter: blur(15px);
+         background: rgba(0,0,0,.6);
+      } 
+      .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
+         box-shadow: none !important;
+         border-radius: var(--ha-card-border-radius);
+      }
+    .: |
+      :host {
+         --ha-card-box-shadow: none;
+      }
+
+  card-mod-view-yaml: |
+    hui-sidebar-view:
+      $: |
+        @media only screen and (min-width: 768px) {
+            .container {
+              max-width: 520px;
+              margin: auto !important;
+              width: -webkit-fill-available;
+            }
+        }
+        #wrapper: |
+          $: |
+            #progressContainer {
+                border-radius: 14px !important;
+            }
+      .: |
+        "#view>hui-view>hui-sidebar-view$#main>hui-card-options:nth-child(7)>vertical-stack-in-card$ha-card>div>hui-horizontal-stack-card$#root>hui-grid-card$#root>hui-entities-card$#states>div:nth-child(4)>slider-entity-row$div>ha-slider$#sliderBar$#progressContainer" {
+            border-radius: 14px !important;
+        }
+
+  card-mod-card: |
+      ha-card {
+        transition: none;
+        border-style: none !important;
+      }
+      .mdc-radio .mdc-radio__background {
+        border-color: var(--switch-unchecked-color);
+      }
+      .mdc-radio.mdc-radio--checked .mdc-radio__background {
+        border-color: var(--accent-color);
+        background-color: var(--accent-color);
+          }
+        }
+    
+dieter_rams_light:
+
+  # Fonts
+  primary-font-family: 'Work Sans, sans-serif'
+  secondary-font-family: 'IBM Plex Sans, sans-serif'
+  code-font-family: 'Reddit Mono, monospace'
+  primary-font-weight: '300'
+  bold-font-weight: '400'
+  italic-font-style: 'italic'
+  
+  # Common Font Settings
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--code-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--secondary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--secondary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
+  ha-card-header-font-weight: "var(--bold-font-weight)"
+
+  # Text
+  text-color: '#000000'
+  primary-text-color: 'var(--text-color)'
+  text-primary-color: 'var(--text-color)'
+  pbs-button-color: 'var(--text-color)'
+  pbs-button-rgb-color: 'var(--text-color)'
+  pbs-button-rgb-state-color: 'var(--text-color)'
+  pbs-button-rgb-default-color: 'var(--text-color)'
+  rgb-state-default-color: 'var(--text-color)'
+  pbs-button-rgb-fallback: 'var(--text-color)'
+  secondary-text-color: "#808285"  # Dunkleres Grau für sekundäre Texte
+  text-medium-light-color: '#A0A2A8'
+  text-medium-color: '#80828A'
+  disabled-text-color: '#626569'
+  primary-color: '#F0F0F0'  # Sehr helles Grau für primäre Elemente
+
+  # Text Fields an Dropdown
+  mdc-text-field-fill-color: 'var(--background-color)'
+  mdc-text-field-ink-color: 'var(--text-color)'
+  mdc-select-fill-color: 'var(--background-color)'
+  mdc-text-field-label-ink-color: 'var(--secondary-text-color)'
+  input-fill-color: 'var(--background-color)'
+  input-ink-color: 'var(--text-color)'
+  input-label-ink-color: 'var(--text-color)'
+  input-disabled-fill-color: 'var(--background-color)'
+  input-disabled-ink-color: 'var(--disabled-text-color)'
+  input-disabled-label-ink-color: 'var(--disabled-text-color)'
+  input-idle-line-color: 'var(--background-color)'
+  input-dropdown-icon-color: 'var(--secondary-text-color)'
+  input-hover-line-color: 'var(--primary-color)'
+  code-editor-background-color: '#F7F7F7'  # Sehr helles Grau für Code-Editor
+  codemirror-property: 'var(--primary-color)'
+
+  # Main Colors
+  app-header-background-color: '#FFFFFF'  # Komplett weißer Hintergrund
+  header-height: 48px
+  accent-color: '#FFD700'  # Dieter Rams Gelb
+  accent-medium-color: 'var(--accent-color)'
+  app-header-edit-background-color: '#FFFFFF'
+
+  # Background
+  background-color: '#F7F7F7'  # Sehr helles Grau für Hintergründe
+  primary-background-color: 'var(--background-color)'
+  background-color-2: '#EFEFEF'  # Noch helleres Grau für Hintergründe
+  secondary-background-color: 'none'
+  markdown-code-background-color: '#E8E8E8'
+
+  # Card
+  card-background-color: 'var(--ha-card-background)'
+  ha-card-background: 'var(--background-color)'  # Weiß für Karten
+  ha-card-box-shadow: 'none'
+  ha-card-border-radius: '0px'  # Keine abgerundeten Ecken
+  ha-card-border-style: 'none !important'
+  ha-card-border-width: 'none !important'
+  ha-card-border-color: 'none !important'
+  border-color: 'none'
+  grid-card-gap: '14px'
+  border-style: 'none !important'
+
+  # Icons
+  paper-item-icon-color: '#A9A9A9'  # Dunkleres Grau für nicht ausgewählte Icons
+  paper-item-icon-active-color: '#61483C'
+
+  # Sidebar
+  sidebar-background-color: 'var(--background-color)'
+  sidebar-icon-color: '#A9A9A9'  # Dunkleres Grau für nicht ausgewählte Icons
+  sidebar-text-color: 'var(--sidebar-icon-color)'  # Dunkleres Grau für nicht ausgewählte Icons
+  sidebar-selected-icon-color: 'var(--accent-color)'
+  sidebar-selected-text-color: 'var(--text-color)'
+  paper-listbox-background-color: 'var(--sidebar-background-color)'
+  divider-color: 'var(--background-color)'
+  light-primary-color: 'var(--ha-card-background)'
+
+  # Sliders
+  paper-slider-knob-color: 'var(--accent-color)'
+  paper-slider-pin-color: 'var(--background-color-2)'
+  paper-slider-active-color: 'var(--accent-color)'
+  paper-slider-container-color: 'var(--background-color-2)'
+
+  # Toggle
+  paper-toggle-button-checked-bar-color: 'var(--accent-color)'
+  mdc-theme-primary: 'var(--accent-color)'
+
+  # Switch
+  switch-unchecked-color: '#D08B30'
+  switch-checked-button-color: 'var(--accent-color)'
+  switch-unchecked-track-color: 'var(--background-color-2)'
+  switch-checked-track-color: 'var(--background-color-2)'
+
+  # Radio Button
+  paper-radio-button-checked-color: 'var(--accent-color)'
+  paper-radio-button-unchecked-color: 'var(--background-color-2)'
+
+  # Popups
+  more-info-header-background: 'var(--secondary-background-color)'
+  paper-dialog-background-color: 'var(--background-color)'
+
+  # Tables
+  table-row-background-color: 'var(--background-color)'
+  table-row-alternative-background-color: 'var(--ha-card-background)'
+
+  # Badges
+  label-badge-background-color: 'var(--background-color)'
+  label-badge-text-color: 'var(--text-primary-color)'
+  label-badge-red: 'rgba(245,32,53,1)'
+  label-badge-blue: 'rgba(72,104,247,1)'
+  label-badge-green: 'rgba(0,202,139,1)'
+  label-badge-yellow: 'rgba(255,229,28,1)'
+
+  paper-input-container-focus-color: 'var(--accent-color)'
+
+  # Custom Header
+  ch-background: 'var(--background-color)'
+  ch-active-tab-color: 'var(--accent-color)'
+  ch-notification-dot-color: 'var(--accent-color)'
+  ch-all-tabs-color: 'var(--sidebar-icon-color)'
+  ch-tab-indicator-color: 'var(--accent-color)'
+
+  # Mini Mediaplayer
+  mini-media-player-base-color: 'var(--text-color)'
+  mini-media-player-accent-color: 'var(--accent-color)'
+
+  # Alarm
+  alarm-color-armed: 'rgba(237,65,44,1)'
+  
+  # Mushroom
+  icon-color: 'var(--primary-color)'
+  rgb-state-fan: 'var(--primary-color)'
+  round-slider-handle-color: 'var(--accent-color)'
+  pc-slider-path-color: 'var(--accent-color)'
+  state-switch-outlet-on-color: 'var(--accent-color)'
+
+  card-mod-theme: dieter_rams_light
+  
+  card-mod-root-yaml: |
+    .: |
+      @media only screen and (max-width: 768px) {
+          .header {
+            display: none;
+            opacity: 0;
+          }
+          #view {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+            height: calc(100vh - env(safe-area-inset-top)) !important;
+          }
+      }
+    
+  card-mod-more-info-yaml: |
+    $: |
+      .mdc-dialog .mdc-dialog__scrim {
+         backdrop-filter: blur(15px);
+         -webkit-backdrop-filter: blur(15px);
+         background: rgba(0,0,0,.6);
+      } 
+      .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
+         box-shadow: none !important;
+         border-radius: var(--ha-card-border-radius);
+      }
+    .: |
+      :host {
+         --ha-card-box-shadow: none;
+      }
+
+  card-mod-view-yaml: |
+    hui-sidebar-view:
+      $: |
+        @media only screen and (min-width: 768px) {
+            .container {
+              max-width: 520px;
+              margin: auto !important;
+              width: -webkit-fill-available;
+            }
+        }
+        #wrapper: |
+          $: |
+            #progressContainer {
+                border-radius: 14px !important;
+            }
+      .: |
+        "#view>hui-view>hui-sidebar-view$#main>hui-card-options:nth-child(7)>vertical-stack-in-card$ha-card>div>hui-horizontal-stack-card$#root>hui-grid-card$#root>hui-entities-card$#states>div:nth-child(4)>slider-entity-row$div>ha-slider$#sliderBar$#progressContainer" {
+            border-radius: 14px !important;
+        }
+
+  card-mod-card: |
+    ha-card {
+      transition: none;
+      border-style: none !important;
+    }
+
+
