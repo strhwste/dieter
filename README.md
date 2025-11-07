@@ -3,7 +3,7 @@ A Dieter Rams inspired Home Assistant Theme
 
 <a href="https://buymeacoffee.com/strhwste" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Strhwste&repository=https%3A%2F%2Fgithub.com%2Fstrhwste%2Fdieter&category=Theme)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Strhwste&repository=dieter&category=Theme)
 
 ## Screenshots
 
