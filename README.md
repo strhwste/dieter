@@ -8,10 +8,10 @@ A Dieter Rams inspired Home Assistant Theme
 ### Homescreen
 
 #### Light Theme
-![Theme - HomeScreen](https://raw.githubusercontent.com/strhwste/dieter/docs/Dashboard-Light.png)
+![Theme - HomeScreen](https://github.com/strhwste/dieter/blob/main/docs/Dashboard-Light.png?raw=true)
 
 #### Dark Theme
-![Theme - HomeScreen](https://raw.githubusercontent.com/strhwste/dieter/docs/Dashboard-dark.png)
+![Theme - HomeScreen](https://github.com/strhwste/dieter/blob/main/docs/Dashboard-dark.png?raw=true)
 
 
 ## Installation
