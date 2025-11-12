@@ -225,67 +225,53 @@ dieter-dark:
   
   card-mod-root-yaml: |
     .: |
-      @media only screen and (max-width: 768px) {
-          .header {
-            display: none;
-            opacity: 0;
-          }
-          #view {
-            padding-top: 0 !important;
-            margin-top: 0 !important;
-            height: calc(100vh - env(safe-area-inset-top)) !important;
-          }
-      }
-    
+      /* Keep header visible on mobile; remove previous overrides */
+
   card-mod-more-info-yaml: |
     $: |
       .mdc-dialog .mdc-dialog__scrim {
-         backdrop-filter: blur(15px);
-         -webkit-backdrop-filter: blur(15px);
-         background: rgba(0,0,0,.6);
-      } 
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        background: rgba(0,0,0,.6);
+      }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
-         box-shadow: none !important;
-         border-radius: var(--ha-card-border-radius);
+        box-shadow: none !important;
+        border-radius: var(--ha-card-border-radius);
       }
     .: |
       :host {
-         --ha-card-box-shadow: none;
+        --ha-card-box-shadow: none;
       }
 
   card-mod-view-yaml: |
     hui-sidebar-view:
       $: |
         @media only screen and (min-width: 768px) {
-            .container {
-              max-width: 520px;
-              margin: auto !important;
-              width: -webkit-fill-available;
-            }
+          .container {
+            max-width: 520px;
+            margin: auto !important;
+            width: -webkit-fill-available;
+          }
         }
-        #wrapper: |
-          $: |
-            #progressContainer {
-                border-radius: 14px !important;
-            }
       .: |
         "#view>hui-view>hui-sidebar-view$#main>hui-card-options:nth-child(7)>vertical-stack-in-card$ha-card>div>hui-horizontal-stack-card$#root>hui-grid-card$#root>hui-entities-card$#states>div:nth-child(4)>slider-entity-row$div>ha-slider$#sliderBar$#progressContainer" {
-            border-radius: 14px !important;
+          border-radius: 14px !important;
         }
 
   card-mod-card: |
-      ha-card {
-        transition: none;
-        border-style: none;
-      }
-      .mdc-radio .mdc-radio__background {
-        border-color: var(--switch-unchecked-color);
-      }
-      .mdc-radio.mdc-radio--checked .mdc-radio__background {
-        border-color: var(--accent-color);
-        background-color: var(--accent-color);
-      }
-    
+    ha-card {
+      transition: none;
+      border-style: none;
+    }
+    .mdc-radio .mdc-radio__background {
+      border-color: var(--switch-unchecked-color);
+    }
+    .mdc-radio.mdc-radio--checked .mdc-radio__background {
+      border-color: var(--accent-color);
+      background-color: var(--accent-color);
+    }  
+
+
 dieter-light:
 
   # Fonts
@@ -337,7 +323,7 @@ dieter-light:
   input-idle-line-color: 'var(--background-color)'
   input-dropdown-icon-color: 'var(--secondary-text-color)'
   input-hover-line-color: 'var(--primary-color)'
-  code-editor-background-color: '#F7F7F7'  # Sehr helles Grau für Code-Editor
+  code-editor-background-color: '#rgb(186, 184, 164)'  # Sehr helles Grau für Code-Editor
   codemirror-property: 'var(--primary-color)'
 
   # Main Colors
@@ -352,7 +338,7 @@ dieter-light:
   primary-background-color: 'var(--background-color)'
   background-color-2: '#F5F5F5'  # Subtle gray for contrast
   secondary-background-color: 'var(--background-color)'
-  markdown-code-background-color: '#F5F5F5'
+  markdown-code-background-color: '#rgb(186, 184, 164)'
 
   # Card
   card-background-color: 'var(--ha-card-background)'
@@ -517,11 +503,6 @@ dieter-light:
             display: none;
             opacity: 0;
           }
-          #view {
-            padding-top: 0 !important;
-            margin-top: 0 !important;
-            height: calc(100vh - env(safe-area-inset-top)) !important;
-          }
       }
     
   card-mod-more-info-yaml: |
@@ -595,7 +576,7 @@ dieter-authentic:
   ha-card-header-font-weight: "var(--bold-font-weight)"
 
   # Text - Using authentic Braun cream
-  text-color: '#010101'  # Authentic Braun off-white/cream
+  text-color: '#010101'  # Authentic Braun
   primary-text-color: 'var(--text-color)'
   text-primary-color: 'var(--text-color)'
   pbs-button-color: 'var(--text-color)'
@@ -624,7 +605,7 @@ dieter-authentic:
   input-idle-line-color: 'var(--background-color)'
   input-dropdown-icon-color: 'var(--secondary-text-color)'
   input-hover-line-color: 'var(--primary-color)'
-  code-editor-background-color: '#1C1C1E'
+  code-editor-background-color: 'rgb(186, 184, 164)'  # Authentic Braun light gray for code editor
   codemirror-property: 'var(--primary-color)'
 
   # Main Colors - Authentic Braun orange
@@ -639,7 +620,7 @@ dieter-authentic:
   primary-background-color: 'var(--background-color)'
   background-color-2: '#D3D8D2'
   secondary-background-color: 'var(--background-color)'
-  markdown-code-background-color: '#1C1C1E'
+  markdown-code-background-color: 'rgb(186, 184, 164)'
 
   # Card
   card-background-color: 'var(--ha-card-background)'
@@ -803,11 +784,6 @@ dieter-authentic:
           .header {
             display: none;
             opacity: 0;
-          }
-          #view {
-            padding-top: 0 !important;
-            margin-top: 0 !important;
-            height: calc(100vh - env(safe-area-inset-top)) !important;
           }
       }
     
