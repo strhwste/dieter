@@ -51,6 +51,12 @@ dieter-dark:
   input-hover-line-color: 'var(--primary-color)'
   code-editor-background-color: '#1C1C1E'  # Dark gray for code editor
   codemirror-property: 'var(--primary-color)'
+  codemirror-atom: '#333333'
+  codemirror-keyword: '#517d64'
+  codemirror-def: '#517d64'
+  codemirror-variable: '#517d64'
+  codemirror-string: '#517d64'
+  codemirror-number: '#517d64'
 
   # Main Colors
   app-header-background-color: '#010101'  # almost black
@@ -81,6 +87,7 @@ dieter-dark:
   # Icons
   paper-item-icon-color: '#636366'  # Neutral gray
   paper-item-icon-active-color: 'var(--primary-color)'  # Muted green for active
+  icon-primary-color: 'var(--text-color)'
 
   # Sidebar
   sidebar-background-color: 'var(--background-color)'
@@ -325,6 +332,12 @@ dieter-light:
   input-hover-line-color: 'var(--primary-color)'
   code-editor-background-color: '#rgb(186, 184, 164)'  # Sehr helles Grau für Code-Editor
   codemirror-property: 'var(--primary-color)'
+  codemirror-atom: '#333333'
+  codemirror-keyword: '#517d64'
+  codemirror-def: '#517d64'
+  codemirror-variable: '#517d64'
+  codemirror-string: '#517d64'
+  codemirror-number: '#517d64'
 
   # Main Colors
   app-header-background-color: '#F5F5F5'  # subtle warm off white
@@ -355,6 +368,7 @@ dieter-light:
   # Icons
   paper-item-icon-color: '#8E8E93'  # Neutral gray
   paper-item-icon-active-color: 'var(--primary-color)'  # Muted green
+  icon-primary-color: 'var(--text-color)'
 
   # Sidebar
   sidebar-background-color: 'var(--background-color)'
@@ -607,6 +621,12 @@ dieter-authentic:
   input-hover-line-color: 'var(--primary-color)'
   code-editor-background-color: 'rgb(186, 184, 164)'  # Authentic Braun light gray for code editor
   codemirror-property: 'var(--primary-color)'
+  codemirror-atom: '#333333'
+  codemirror-keyword: '#517d64'
+  codemirror-def: '#517d64'
+  codemirror-variable: '#517d64'
+  codemirror-string: '#517d64'
+  codemirror-number: '#517d64'
 
   # Main Colors - Authentic Braun orange
   app-header-background-color: '#D3D8D2'
@@ -637,6 +657,7 @@ dieter-authentic:
   # Icons
   paper-item-icon-color: '#636366'
   paper-item-icon-active-color: 'var(--primary-color)'  # Olive
+  icon-primary-color: 'var(--text-color)'
 
   # Sidebar
   sidebar-background-color: 'var(--background-color)'

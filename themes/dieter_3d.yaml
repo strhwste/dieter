@@ -1,0 +1,185 @@
+dieter-3d:
+
+  # Fonts
+  primary-font-family: 'Work Sans, sans-serif'
+  secondary-font-family: 'IBM Plex Sans, sans-serif'
+  code-font-family: 'Reddit Mono, monospace'
+  primary-font-weight: '300'
+  bold-font-weight: '400'
+  italic-font-style: 'italic'
+
+  # Common Font Settings
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--code-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--secondary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--secondary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  ha-card-header-font-family: "var(--primary-font-family)"
+  ha-card-header-font-weight: "var(--bold-font-weight)"
+
+  # Text
+  text-color: '#1e2226'
+  primary-text-color: 'var(--text-color)'
+  text-primary-color: 'var(--text-color)'
+  secondary-text-color: '#5f666c'
+  text-medium-light-color: '#7e858b'
+  text-medium-color: '#5f666c'
+  disabled-text-color: '#aeb5bc'
+  primary-color: '#406450'
+  accent-color: '#f26534'
+
+  # Background
+  background-color: '#e8ecf0'
+  primary-background-color: 'var(--background-color)'
+  background-color-2: '#dfe3e7'
+  secondary-background-color: '#f5f7f9'
+  markdown-code-background-color: '#dfe3e7'
+
+  # Header
+  app-header-background-color: '#f6f8f9'
+  app-header-edit-background-color: '#f6f8f9'
+  header-height: 48px
+
+  # Surfaces
+  ha-card-background: '#f3f6f8'
+  ha-card-border-radius: '20px'
+  ha-card-border-width: '0'
+  ha-card-border-style: 'none'
+  ha-card-border-color: 'transparent'
+  ha-card-box-shadow: '18px 18px 28px #c1c7ce, -18px -18px 28px #ffffff'
+  card-background-color: 'var(--ha-card-background)'
+  border-color: '#d9dde1'
+  divider-color: '#d9dde1'
+  grid-card-gap: '18px'
+
+  # Icons
+  paper-item-icon-color: '#7e858b'
+  paper-item-icon-active-color: 'var(--primary-color)'
+  icon-primary-color: 'var(--text-color)'
+  state-icon-color: '#70767c'
+  state-icon-active-color: '#406450'
+  state-icon-unavailable-color: '#c4c9cf'
+
+  # Sidebar
+  sidebar-background-color: 'var(--background-color)'
+  sidebar-icon-color: '#7e858b'
+  sidebar-text-color: 'var(--sidebar-icon-color)'
+  sidebar-selected-icon-color: 'var(--primary-color)'
+  sidebar-selected-text-color: 'var(--text-color)'
+  paper-listbox-background-color: 'var(--sidebar-background-color)'
+  light-primary-color: '#f1f4f7'
+
+  # Inputs
+  input-fill-color: '#f2f5f8'
+  input-ink-color: 'var(--text-color)'
+  input-label-ink-color: '#6a7177'
+  input-disabled-fill-color: '#dfe3e7'
+  input-disabled-ink-color: '#aeb5bc'
+  input-disabled-label-ink-color: '#bdc3c9'
+  input-idle-line-color: 'transparent'
+  input-hover-line-color: 'var(--primary-color)'
+  input-dropdown-icon-color: '#6a7177'
+  mdc-text-field-fill-color: 'var(--input-fill-color)'
+  mdc-text-field-ink-color: 'var(--text-color)'
+  mdc-text-field-label-ink-color: '#6a7177'
+  mdc-select-fill-color: 'var(--input-fill-color)'
+
+  # Sliders
+  paper-slider-knob-color: '#ffffff'
+  paper-slider-pin-color: '#ffffff'
+  paper-slider-active-color: 'var(--primary-color)'
+  paper-slider-container-color: '#d6dae0'
+
+  # Switch
+  switch-unchecked-color: '#ffffff'
+  switch-checked-button-color: '#ffffff'
+  switch-unchecked-track-color: '#ccd2d8'
+  switch-checked-track-color: '#406450'
+
+  # Radio Button
+  paper-radio-button-checked-color: 'var(--primary-color)'
+  paper-radio-button-unchecked-color: '#9aa1a7'
+
+  # Badges
+  label-badge-background-color: '#f2f4f6'
+  label-badge-text-color: '#383e42'
+  label-badge-red: '#d94f35'
+  label-badge-green: '#406450'
+  label-badge-yellow: '#f29a33'
+  label-badge-blue: '#4c7a92'
+
+  # Semantic colors
+  error-color: '#d94f35'
+  warning-color: '#f29a33'
+  success-color: '#406450'
+  info-color: '#4c7a92'
+
+  # Material Design Components
+  mdc-theme-primary: 'var(--primary-color)'
+  mdc-theme-secondary: 'var(--accent-color)'
+  mdc-theme-on-primary: '#ffffff'
+  mdc-theme-on-secondary: '#ffffff'
+
+  # Modern HA Tokens
+  ha-color-fill-primary: 'var(--primary-color)'
+  ha-color-fill-primary-hover: '#4c765d'
+  ha-color-fill-primary-active: '#305240'
+  ha-color-fill-secondary: '#f26e3d'
+  ha-color-text-primary: 'var(--text-color)'
+  ha-color-border: '#cbd0d5'
+  ha-color-border-strong: '#b8bdc2'
+
+card-mod-theme: dieter-3d
+card-mod-root-yaml: |
+  ha-app-layout:
+    $: |
+      :host {
+        background: radial-gradient(circle at 28% 22%, #fefefe 0%, #eef1f4 60%, #dbe0e5 100%);
+      }
+
+card-mod-card: |
+  ha-card {
+    background: linear-gradient(150deg, #f9fbfd 0%, #dfe3e7 100%);
+    box-shadow: 22px 22px 32px #c1c7ce, -16px -16px 28px #ffffff;
+  }
+  /* 3D switch track and handle inspired by Braun controls */
+  ha-switch:not([checked]) .mdc-switch__track,
+  mwc-switch:not([selected]) .mdc-switch__track {
+    background: linear-gradient(145deg, #fbfcfe, #cfd5db);
+    border-radius: 999px;
+    box-shadow: inset 5px 5px 8px #c0c6cc, inset -5px -5px 8px #ffffff;
+  }
+  ha-switch[checked] .mdc-switch__track,
+  mwc-switch[selected] .mdc-switch__track {
+    background: linear-gradient(145deg, #4d8064, #2f4e3d);
+    border-radius: 999px;
+    box-shadow: inset 4px 4px 6px rgba(0,0,0,0.28), inset -4px -4px 6px rgba(255,255,255,0.55);
+  }
+  ha-switch .mdc-switch__handle,
+  mwc-switch .mdc-switch__handle {
+    background: radial-gradient(circle at 35% 30%, #ffffff 0%, #e3e7eb 75%, #c3c7cb 100%);
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.18), -6px -6px 10px rgba(255,255,255,0.85);
+  }
+  ha-switch[checked] .mdc-switch__handle,
+  mwc-switch[selected] .mdc-switch__handle {
+    background: linear-gradient(135deg, #ff955a 0%, #d34e20 100%);
+    box-shadow: 3px 4px 6px rgba(0,0,0,0.26), -4px -4px 6px rgba(255,255,255,0.65);
+  }
+  ha-switch .mdc-switch__icons,
+  mwc-switch .mdc-switch__icons {
+    display: none;
+  }
+  /* Icon wells for Dieter Rams indicator buttons */
+  ha-card ha-state-icon {
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.95) 0%, #f1f4f6 55%, #cbd0d5 100%);
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: inset 5px 5px 8px rgba(0,0,0,0.08), inset -5px -5px 8px rgba(255,255,255,0.85), 4px 4px 6px rgba(0,0,0,0.12), -4px -4px 6px rgba(255,255,255,0.7);
+  }
+  ha-card ha-state-icon[active],
+  ha-card ha-state-icon[state-active] {
+    background: radial-gradient(circle at 50% 45%, rgba(253,143,81,0.15) 0%, rgba(242,106,59,0.35) 60%, rgba(211,78,32,0.55) 100%);
+  }
+
